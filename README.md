@@ -5,3 +5,6 @@ A music streaming startup, Sparkify, has grown their user base and song database
 - The "AWS Redshift setup & cleanup.ipynb" file programmatically create/access/delete the Redshift cluster and IAM role using a python library boto (IaC).
 - The "create_tables.py" file drops/creates all the staging and analytics tables.
 - The "etl.py" file first stage the data from S3 to Redshift then transform the data into a star schema.
+
+# Entity Relationship Diagram
+![Alt text](Fact_Dim_Tables.png?raw=true)
